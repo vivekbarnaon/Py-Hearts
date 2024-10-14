@@ -7,11 +7,7 @@ def heart_a(n):
 
 
 def heart_b(n):
-    return 12 * math.cos(n)-5 * \
-        math.cos(2*n)-2 * \
-        math.cos(2*n) -\
-        math.cos(3*n) -\
-        math.cos(4*n)
+    return 12 * math.cos(n) - 5 * math.cos(2 * n) - 2 * math.cos(3 * n) - math.cos(4 * n)
         
 speed(10)
 bgcolor("black")
